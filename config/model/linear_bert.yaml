@@ -1,0 +1,9 @@
+_target_: extend.models.linear_bert.LinearBert
+
+transformer: bert-base-uncased
+num_epochs: 100
+lr: 3e-5
+max_len: 256
+batch_size: 16
+loss_type: conditional
+no_pretrained: false

@@ -1,0 +1,10 @@
+# @package _group_
+_target_: extend.data.processing.LinearBertProcessing
+
+tokenizer: bert-base-uncased
+max_len: 256
+include_eog: true
+split_sentences: false
+remove_rare_node_types: 0
+remove_rare_edge_types: 5
+small: false
